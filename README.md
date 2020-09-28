@@ -1,6 +1,6 @@
 # appJar  
 
-Simple tKinter GUIs in Python  
+Simple Tkinter GUIs in Python  
 
 ---
 
@@ -34,7 +34,7 @@ This provides a library for implementing easy GUIs...
  - Download the ZIP file (click the big green button) & unzip it
  - Add it to your path:
    - make a folder in your home directory, called PYLIB, and put appJar inside it
-   - On mac/linux add this to your .bashrc: export PYTHONPATH=~/PYLIB:$PYTHONPATH
+   - On mac/Linux add this to your .bashrc: export PYTHONPATH=~/PYLIB:$PYTHONPATH
    - On Windows, add a new environment variable
  - Give it a twirl:
    - Check the docs folder, for a couple of PDFs with help.
@@ -72,9 +72,9 @@ with gui("Example") as app:
    - get(name) this gets the value of the named widget
  - Uses grid layout
  - When adding widgets, up to 4 numerical "positions" can be supplied:
-   - column - the coloumn to appear in, starting at 0
+   - column - the column to appear in, starting at 0
    - row - row to appear in, stating at 0
-   - columnspan - how many columns to span across
+   - column-span - how many columns to span across
    - rowspan - how many rows to span down
  - Provides loads of extra bits and pieces outside of core tkinter
    - Some of this was from the excellent resources @ http://effbot.org
